@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: #000;
+}
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0; /* Ensure video stays behind */
+}
+
+#blue{
+    position: absolute;
+    top: 75%; /* Adjust position as needed */
+    left: 15%; /* Adjust position as needed */
+    height: 60%;
+    width: 70%;
+    z-index: 1; /* Ensures it stays on top */
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#blue img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+
+}
+
+#blue .hover-img {
+    opacity: 0;
+    transform: opacity 0.3s ease-in-out;
+}
+
+#blue:hover .hover-img {
+    opacity: 1;
+}
+
+
+#page2{
+    position: relative;
+    height: 120%;
+    width: 100%;
+    background: #fff;
+}
+ p{
+    font-size: 2.2vh;
+    color: #fff;
+}
+
+#bio {
+    height: 70%;
+    width: 70%;
+    background: #000;
+    position: absolute;
+    top: 50%; 
+    left: 26%;
+}
+
+#rocket{
+    height: 60%;
+    width: 25%;
+    background: red;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+#rocket img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+#bio-text{
+    height: 72%;
+    width: 72%;
+    color: white;
+    /* background: #fff; */
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+
+
+
+
+
+
+#page3{
+    position: relative;
+    height: 8%;
+    width: 100%;
+    background: #000000;
+    margin-top: 10%;
+}
+
+#page3 p{
+    position: absolute;
+    top: 30%;
+    left: 38%;
+}
